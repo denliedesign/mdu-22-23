@@ -7,6 +7,9 @@
         <title>MDU 22-23</title>
 
         <!-- Fonts -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Nunito&display=swap');
+        </style>
 
         <!-- Styles -->
         <link rel="stylesheet" href="/css/style.css">
@@ -40,7 +43,7 @@
     <div class="d-lg-none d-flex justify-content-center pt-3 bg-white">
         <a class="navbar-brand" href="/"><img src="/images/mdu-logo.png" alt="" style="max-width: 257px;"></a>
     </div>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -85,19 +88,20 @@
 
     <div style="position: relative;" class="d-none d-md-block">
         <h2 id="great-txt">
-            You <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon>
+            You <span class="text-red">belong</span> here
+{{--            <ion-icon name="heart"></ion-icon>--}}
             <br>
-            <span style="font-size: 0.5em; font-weight: normal;">Your child will fall in love with dance with our classes for ages 2-18!</span>
+            <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for ages 2-18!</span>
         </h2>
 {{--        <h2 id="great-txt-mobile" class="d-block d-md-none">--}}
 {{--            you <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon>--}}
 {{--            <br>--}}
 {{--            <span style="font-size: 0.5em; font-weight: normal;">Your child will fall in love with dance with our classes for ages 2-18!</span>--}}
 {{--        </h2>--}}
-        <div style="position:absolute; bottom: 22%; left: 50%; transform: translate(-50%, -50%);">
+        <div style="position:absolute; bottom: 18%; left: 50%; transform: translate(-50%, -50%);">
             <a href=""><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
         </div>
-        <img src="/images/dance-makes-great-kids-crop.jpg" alt="" class="img-fluid" style="z-index: 0;">
+        <img src="/images/dance-makes-great-kids.jpg" alt="" class="img-fluid" style="z-index: 0;">
     </div>
 
     <div class="d-block d-md-none">
@@ -105,10 +109,10 @@
             <p class="text-center" style="font-size: 1.5em;">
                 <strong>You <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon></strong>
                 <br>
-                <small>Your child will fall in love with dance with our classes for ages 2-18!</small>
+                <small class="txt-crimson">Your child will fall in love with dance with our classes for ages 2-18!</small>
             </p>
         </div>
-        <img src="/images/dance-makes-great-kids-crop.jpg" alt="" class="img-fluid" style="z-index: 0;">
+        <img src="/images/dance-makes-great-kids.jpg" alt="" class="img-fluid" style="z-index: 0;">
     </div>
 
     <div class="bg-red py-5">
@@ -116,8 +120,8 @@
             <div class="row">
                 <div class="col-sm d-flex justify-content-center">
                     <div class="text-center text-white">
-                        <div class="fw-bold" style="font-size: 1.5em;">FREE TRIAL CLASS</div>
-                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nihil quisquam voluptatum.</div>
+                        <div class="fw-bold" style="font-size: 2em;">FIND JOY IN MOVING</div>
+                        <div class="txt-crimson" style="font-size: 1.5em;">Our Experienced Dance Instructors Will Guide You In A <u>FREE</u> Video-Recorded Dance Lesson. Enter Your Email To Get Started.</div>
                     </div>
                 </div>
                 <div class="col-sm d-flex justify-content-center align-items-center">
@@ -136,11 +140,11 @@
         </div>
     </div>
 
-    <div class="text-center py-5">
+    <div class="text-center py-5 bg-seashell">
         <div class="container my-5">
             <h2 style="font-size: 2.75em;" class="fw-bold">Dance makes GREAT kids!</h2>
-            <p style="font-size: 1.75em;">
-                From your child’s first class to their graduation performance, your child with thrive! At MDU dance classes are More Than Just Great Dancing®! Our dancers go beyond technique to develop important life skills, learning to be respectful, confident and conscientious young people who share their gifts and talents with the community.
+            <p class="txt-crimson" style="font-size: 1.75em;">
+                From your child’s first class to their graduation performance, your child will thrive! At MDU dance classes are More Than Just Great Dancing! Our dancers go beyond technique to develop important life skills, learning to be respectful, confident and conscientious young people who share their gifts and talents with the community.
             </p>
         </div>
     </div>
@@ -149,91 +153,137 @@
         <div class="container mb-5">
             <div class="row">
                 <div class="col-sm text-center mt-5">
-                    <img class="review-img shadow mb-2" src="/images/review-andrea-linder.png" alt="">
-                    <div class="fw-bold">Andrea Linder</div>
-                    <div>
-                        Misty's Dance has been an amazing place for my daughter to not only make friends but to find confidence in herself. They value all who walk through there doors and always greet you with a smile. I couldn't ask for a better place for my little girl to grow and learn through dance. Misty's Dance is definitely More Than Just Great Dancing! ❤
+                    <img class="review-img shadow mb-4" src="/images/review-andrea-linder.png" alt="">
+                    <div class="fw-bold" style="font-size: 1.25em;">Andrea Linder</div>
+                    <div class="txt-crimson" style="font-size: 1.125em;">
+                        Misty's Dance has been an amazing place for my daughter to not only make friends but to find confidence in herself.
+{{--                        They value all who walk through there doors and always greet you with a smile. I couldn't ask for a better place for my little girl to grow and learn through dance. Misty's Dance is definitely More Than Just Great Dancing! ❤--}}
                     </div>
                 </div>
                 <div class="col-sm text-center mt-5">
-                    <img class="review-img shadow mb-2" src="/images/review-kari-robinson.png" alt="">
-                    <div class="fw-bold">Kari Robinson</div>
-                    <div>
-                        My daughter and I LOVE Misty's Dance and all the personnel and instructors there.  We have always felt more than welcome walking in the door.  Everyone has a smile on their face.   They are professional, organized and great role models for our youth.  Plus they are doing all they can to keep a safe & clean environment amidst COVID-19!!
+                    <img class="review-img shadow mb-4" src="/images/review-kari-robinson.png" alt="">
+                    <div class="fw-bold" style="font-size: 1.25em;">Kari Robinson</div>
+                    <div class="txt-crimson" style="font-size: 1.125em;">
+{{--                        My daughter and I LOVE Misty's Dance and all the personnel and instructors there.  --}}
+                        We have always felt more than welcome walking in the door.  Everyone has a smile on their face.
+{{--                        They are professional, organized and great role models for our youth.  Plus they are doing all they can to keep a safe & clean environment amidst COVID-19!!--}}
                     </div>
                 </div>
                 <div class="col-sm text-center mt-5">
-                    <img class="review-img shadow mb-2" src="/images/review-sarah-fecht.png" alt="">
-                    <div class="fw-bold">Sarah Fecht</div>
-                    <div>
-                        Some companies create catchy tag lines because they sound good, rhyme well, or are memorable.  MDU's - more than just great dance tag line speaks to the core of who they are.  This studio's focus is on building character, creating confidence, and improving the mental & physical strength in the lives that they touch.  I'm so thankful we found this studio and that my children are gaining life skills that will propel them into a successful adulthood.
+                    <img class="review-img shadow mb-4" src="/images/review-sarah-fecht.png" alt="">
+                    <div class="fw-bold" style="font-size: 1.25em;">Sarah Fecht</div>
+                    <div class="txt-crimson" style="font-size: 1.125em;">
+{{--                        Some companies create catchy tag lines because they sound good, rhyme well, or are memorable.  MDU's - more than just great dance tag line speaks to the core of who they are.  This studio's focus is on building character, creating confidence, and improving the mental & physical strength in the lives that they touch.  --}}
+                        I'm so thankful we found this studio and that my children are gaining life skills that will propel them into a successful adulthood.
                     </div>
                 </div>
                 <div class="col-sm text-center mt-5">
-                    <img class="review-img shadow mb-2" src="/images/review-jean-arends.png" alt="">
-                    <div class="fw-bold">Jean Arends</div>
-                    <div>
-                        When I switched my girls over to Misty's Dance three years ago it meant driving an 1 hr one way for each day they danced. At the time that was two days a week. Last year two on my boys also asked to begin dancing and they loved it as well. The girls cannot see themselves not participating in dance each year. Even when the classrooms were closed the speed with which the studio was able to adapt and offer Virtual Classes was amazing! Thank you Misty I have 2 girls who have no interest in dancing anywhere else!
+                    <img class="review-img shadow mb-4" src="/images/review-jean-arends.png" alt="">
+                    <div class="fw-bold" style="font-size: 1.25em;">Jean Arends</div>
+                    <div class="txt-crimson" style="font-size: 1.125em;">
+{{--                        When I switched my girls over to Misty's Dance three years ago it meant driving an 1 hr one way for each day they danced. At the time that was two days a week. Last year two on my boys also asked to begin dancing and they loved it as well. The girls cannot see themselves not participating in dance each year. --}}
+                        Even when the classrooms were closed the speed with which the studio was able to adapt and offer Virtual Classes was amazing!
+{{--                        Thank you Misty I have 2 girls who have no interest in dancing anywhere else!--}}
                     </div>
                 </div>
                 <div class="col-sm text-center mt-5">
-                    <img class="review-img shadow mb-2" src="/images/review-elizabeth-bruns.png" alt="">
-                    <div class="fw-bold">Elizabeth Bruns</div>
-                    <div>
-                        We couldn't be more pleased with the quality of instruction at Misty's Dance Unlimited. Our girls have grown so much in their dance knowledge and skill. They look so forward to class and learning from quality instructors who have wonderful, caring personalities. Misty is a role model to all the students and staff with her dancing talent, public speaking, and delightful personality. We are so thankful to have this classy studio in the area.
+                    <img class="review-img shadow mb-4" src="/images/review-elizabeth-bruns.png" alt="">
+                    <div class="fw-bold" style="font-size: 1.25em;">Elizabeth Bruns</div>
+                    <div class="txt-crimson" style="font-size: 1.125em;">
+                        We couldn't be more pleased with the quality of instruction. Our girls have grown so much in their dance knowledge and skill.
+{{--                        They look so forward to class and learning from quality instructors who have wonderful, caring personalities. --}}
+{{--                        Misty is a role model to all the students and staff with her dancing talent, public speaking, and delightful personality. We are so thankful to have this classy studio in the area.--}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container py-5 my-5">
-        <h2 style="font-size: 2.75em;" class="fw-bold text-center">Parents <ion-icon name="heart"></ion-icon> Misty's...</h2>
-        <div class="row" style="font-size: 1.5em;">
-            <div class="col-sm d-flex justify-content-center">
-                <p>
-                    <ion-icon name="heart-outline"></ion-icon> Sprung Floors
-                    <br><ion-icon name="heart-outline"></ion-icon> Secured Facility
-                    <br><ion-icon name="heart-outline"></ion-icon> Study Areas
-                </p>
+{{--    <div class="bg-seashell py-5">--}}
+{{--        <div class="container my-5">--}}
+{{--            <h2 style="font-size: 2.75em;" class="fw-bold text-center">Parents <ion-icon name="heart"></ion-icon> Misty's...</h2>--}}
+{{--            <div class="row" style="font-size: 1.5em;">--}}
+{{--                <div class="col-sm d-flex justify-content-center">--}}
+{{--                    <p>--}}
+{{--                        <ion-icon name="heart-outline"></ion-icon> Sprung Floors--}}
+{{--                        <br><ion-icon name="heart-outline"></ion-icon> Secured Facility--}}
+{{--                        <br><ion-icon name="heart-outline"></ion-icon> Study Areas--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm d-flex justify-content-center">--}}
+{{--                    <p>--}}
+{{--                        <ion-icon name="heart-outline"></ion-icon> Written Curriculum--}}
+{{--                        <br><ion-icon name="heart-outline"></ion-icon> Background Checked--}}
+{{--                        <br><ion-icon name="heart-outline"></ion-icon> CPR Trained--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm d-flex justify-content-center">--}}
+{{--                    <p>--}}
+{{--                        <ion-icon name="heart-outline"></ion-icon> Full-Time Admin--}}
+{{--                        <br><ion-icon name="heart-outline"></ion-icon> YPAD Certified--}}
+{{--                        <br><ion-icon name="heart-outline"></ion-icon> Community Service--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="d-flex justify-content-center">--}}
+{{--                <div class="btn btn-lg btn-danger shadow">Learn More</div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
+    <div style="position: relative; height: 879px;" class="bg-seashell">
+        <div class="container" style="height: 100%;">
+            <div class="row my-0 py-0 d-flex align-items-center" style="height: 100%;">
+                <div class="col-sm-8">
+                    <div class="mb-4">
+                        <h2 style="font-size: 2.75em;" class="fw-bold text-center">Parents
+                            <ion-icon name="heart-outline"></ion-icon>
+                            Misty's...</h2>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="txt-crimson" style="font-size: 1.75em;">
+                            <span class="text-red"><ion-icon name="heart"></ion-icon></span> Sprung Floors
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Secured Facility
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Study Areas
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Written Curriculum
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Background Checked
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> CPR Trained
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Full-Time Admin
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> YPAD Certified
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Community Service
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <div class="btn btn-lg btn-outline-danger shadow">Learn More</div>
+                    </div>
+                </div>
+                <div class="col-sm-4"></div>
             </div>
-            <div class="col-sm d-flex justify-content-center">
-                <p>
-                    <ion-icon name="heart-outline"></ion-icon> Written Curriculum
-                    <br><ion-icon name="heart-outline"></ion-icon> Background Checked
-                    <br><ion-icon name="heart-outline"></ion-icon> CPR Trained
-                </p>
             </div>
-            <div class="col-sm d-flex justify-content-center">
-                <p>
-                    <ion-icon name="heart-outline"></ion-icon> Full-Time Admin
-                    <br><ion-icon name="heart-outline"></ion-icon> YPAD Certified
-                    <br><ion-icon name="heart-outline"></ion-icon> Community Service
-                </p>
-            </div>
+        <div>
+            <img src="/images/parents-love-mistys-bg.png" alt="" class="img-fluid d-none d-lg-block" id="parents-image">
         </div>
-        <div class="d-flex justify-content-center">
-            <div class="btn btn-lg btn-danger shadow">Learn More</div>
         </div>
-    </div>
 
     <div class="bg-red text-white py-5">
-        <div class="container my-5">
-{{--            <h2 class="fw-bold text-center" style="font-size: 2.75em;">By the numbers...</h2>--}}
+        <div class="container">
+            <h2 class="fw-bold text-center" style="font-size: 2.75em;">By the numbers...</h2>
             <div class="row" style="font-size: 1.5em;">
-                <div class="col-sm text-center d-flex align-items-center justify-content-center"><p class="py-5">25 years of instruction</p></div>
+                <div class="col-sm text-center d-flex align-items-center justify-content-center"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="calendar"></ion-icon><br>25</span><br>years of instruction</p></div>
                 <div class="d-md-none"><hr></div>
-                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5">100+ classes per week</p></div>
+                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="school"></ion-icon><br>100+</span><br> classes per week</p></div>
                 <div class="d-md-none"><hr></div>
-                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5">21,000+ sq. ft. facility</p></div>
+                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="home"></ion-icon><br>21,000+</span><br> square foot facility</p></div>
             </div>
         </div>
     </div>
 
-    <div class="container py-5 my-5">
-        <h2 class="fw-bold text-center" style="font-size: 2.75em;">If you let me dance...</h2>
-        <div class="d-flex justify-content-center">
-            <video poster="/images/if-you-let-me-dance-poster.png" src="/images/if-you-let-me-dance.mp4" type="video/mp4" controls="" class="shadow rounded" style="max-width: 950px; width: 100%; height: auto;"></video>
+    <div class="bg-seashell py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center" style="font-size: 2.75em;">If you let me dance...</h2>
+            <div class="d-flex justify-content-center">
+                <video poster="/images/if-you-let-me-dance-poster.png" src="/images/if-you-let-me-dance.mp4" type="video/mp4" controls="" class="shadow rounded" style="max-width: 950px; width: 100%; height: auto;"></video>
+            </div>
         </div>
     </div>
 
@@ -253,7 +303,7 @@
                 </div>
                 <div class="col-sm mt-4" style="position: relative;">
                     <div class="d-flex justify-content-center">
-                        <img src="/images/class-medium.jpeg" alt="medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <img src="/images/class-5-8.jpg" alt="medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
                         <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Ages 5-8</div>
                     </div>
                 </div>
@@ -274,26 +324,22 @@
     </div>
 
     <div class="py-5">
-        <div class="container my-5">
+        <div class="container">
             <div class="row">
                 <div class="col-sm d-flex align-items-center">
                     <div>
+{{--                        <div class="mt-0 mb-3"><span class="txt-featured">Featured Program</span></div>--}}
                         <div class="d-flex justify-content-center mb-0">
                             <img src="/images/darbys-dancers-logo.jpeg" alt="darbys dancers logo" class="img-fluid">
                         </div>
-                        <h2 class="text-center mt-0 mb-3">Featured Program</h2>
-                        <p class="mb-5">
-                            Misty’s Dance Unlimited (MDU) is proud to offer through a chapter of the national non-profit organization <strong>Darby’s Dancers</strong>! Darby's Dancers is an opportunity for children with special needs to participate in the performing arts through dance education.
-                            <br><br>
-                            Dancers in the program gain confidence, coordination, strength and lifelong friends, all while feeling like a star.  Our youth volunteers learn important lessons in responsibility and friendship by providing one-on-one assistance their dancer.
-                            <br><br>
-                            The charitable contributions of youth volunteers, dance instructors, and MDU provide dance classes, supplies and costumes to dancers with special needs at no cost to their parents.
+                        <p class="text-center txt-crimson" style="font-size: 1.25em;">
+                            MDU is proud to offer through a chapter of the national non-profit organization Darby’s Dancers, an opportunity for children with special needs to participate in the performing arts through dance education.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm d-flex align-items-center justify-content-center">
                     <div class="">
-                        <img src="/images/darbys-1.jpg" alt="darbys dancer on stage" class="img-fluid rounded shadow">
+                        <img src="/images/darbys-dancers.jpg" alt="darbys dancer on stage" class="img-fluid rounded shadow">
                     </div>
                 </div>
             </div>
@@ -301,50 +347,82 @@
     </div>
 
     <div class="bg-blue py-5">
-        <div class="container my-5">
-            <div class="text-center text-white" style="font-size: 1.5em;">
+        <div class="container">
+            <div class="text-center txt-crimson" style="font-size: 1.5em;">
                 We have been extremely pleased with the level of instruction & care shown at Misty's Dance Unlimited.  My daughter has been dancing at MDU for 6 years.  She started in the Kiddance/KidTap program & is now in the Pre-Professional ballet program.  The staff care just as much about the kids as people, as dancers.
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <img class="review-img shadow mt-2" src="/images/review-sandy-helfrich.png" alt="">
-                <div class="fw-bold mx-3">Sandy Helfrich</div>
+                <img class="review-img shadow mt-4" src="/images/review-sandy-helfrich.png" alt="">
+                <div class="fw-bold mx-4" style="font-size: 1.25em;">Sandy Helfrich</div>
             </div>
         </div>
     </div>
 
-    <div id="safer-youth" class="bg-white py-5">
+    <div id="safer-youth" class="bg-seashell pt-5">
+{{--        <div id="pups-wrap" class="my-5">--}}
+{{--            <div id="pups"></div>--}}
+{{--        </div>--}}
         <div class="container">
             <div class="row">
+                <div class="col-sm d-flex align-items-center">
+                    <img src="/images/safer-studio-dancer.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm d-flex align-items-center">
+                    <div>
+                        <div class="d-flex justify-content-center">
+                            <img src="/images/ypad-badge.png" alt="ypad logo" class="img-fluid" style="width: auto; height: 250px;">
+                        </div>
+                        <h2 class="text-center">MDU is Youth Protection Advocates in Dance  Certified!</h2>
+                        <p class="txt-crimson" style="font-size: 1.25em;">
+                            <span class="text-red"><ion-icon name="heart"></ion-icon></span> Background checked and CPR certified teachers
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Safer Studio Policy
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Teacher training & proven curriculum
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> A focus on safety & wellness for every student
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Secured facilities
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Viewing windows
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Social media safety practices
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mb-0 pb-0 mt-4">
                 <div class="col-sm">
                     <div class="d-flex justify-content-center">
                         <img src="/images/safer-studio-logo.png" alt="safer studio logo" class="img-fluid" style="width: auto; height: 250px; filter: invert(1);">
                     </div>
-                    <h2 class="text-center">MDU is a Safer Studio™</h2>
-                    <p>
-                        MDU focuses on a hierarchy of measures to create a Safer Studio™ environment beginning with requiring students and staff who are ill to stay home, followed by frequent hand cleaning and good hygiene practices, amplified cleaning, and making curricular and facility adaptations to minimizing contact and mingling.
+                    <h2 class="text-center">MDU is a Safer Studio</h2>
+                    <p class="txt-crimson" style="font-size: 1.25em;">
+                        MDU focuses on a hierarchy of measures to create a Safer Studio environment beginning with requiring students and staff who are ill to stay home, followed by frequent hand cleaning and good hygiene practices, amplified cleaning, and making curricular and facility adaptations to minimizing contact and mingling.
                     </p>
                 </div>
                 <div class="col-sm">
-                    <div class="d-flex justify-content-center">
-                        <img src="/images/ypad-badge.png" alt="ypad logo" class="img-fluid" style="width: auto; height: 250px;">
-                    </div>
-                    <h2 class="text-center">MDU is Youth Protection Advocates in Dance®  Certified!</h2>
-                    <p>
-                        <span class="txt-pink"><ion-icon name="heart"></ion-icon></span> Background checked and CPR certified teachers
-                        <br><span class="txt-pink"><ion-icon name="heart"></ion-icon></span> Safer Studio™ Policy
-                        <br><span class="txt-pink"><ion-icon name="heart"></ion-icon></span> Teacher training & proven curriculum
-                        <br><span class="txt-pink"><ion-icon name="heart"></ion-icon></span> A focus on safety & wellness for every student
-                        <br><span class="txt-pink"><ion-icon name="heart"></ion-icon></span> Secured facilities
-                        <br><span class="txt-pink"><ion-icon name="heart"></ion-icon></span> Viewing windows
-                        <br><span class="txt-pink"><ion-icon name="heart"></ion-icon></span> Social media safety practices
-                    </p>
+                    <img src="/images/dancer-huddle.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
     </div>
 
-    <div>
-        <div class="container my-5 py-5">
+    <div id="did-you-know" class="bg-red text-white">
+        <div class="container py-5">
+            <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Did you know...</h2>
+            <p class="text-center txt-crimson" style="font-size: 1.75em;">
+                Dance improves not only physical dexterity but also mental dexterity by repetition, rehearsals, and problem solving with movement.
+                From exercising mind and body simultaneously in dance, kids in turn do better at absorbing ideas and holding information at school.
+            </p>
+            <div class="mt-3">
+                <p class="text-center rounded p-3" style="font-size: 1.75em; border: 4px solid #EBE82E;">
+                    <span>
+                        That's why we at MDU built developmentally appropriate curriculum so our kids can be<br>More Than Just Great Dancers.
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-seashell">
+        <div class="container py-5">
             <h2 class="text-center">See what dance can do for your child!</h2>
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 py-4">
                 <div class="col-sm">
@@ -385,43 +463,43 @@
                     <div>
                         <p style="font-size: 1.5em;" class="fw-bold mb-0">OUTSTANDING 4.9/5</p>
                         <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
-                        <p style="color: lightgray;"><small>based on <strong>54</strong> reviews</small></p>
+                        <p style="color: seashell;"><small>based on <strong>54</strong> reviews</small></p>
                     </div>
                 </div>
                 <div class="col px-2" id="review-stars">
                     <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
                     <p class="mb-0"><small><strong>They teach dance, but stress the importance of being a kind, hard working individual.</strong></small></p>
                     <p class="mb-0"><small>They care about each student as a person, not just a dancer.</small></p>
-                    <div style="width: 30px; height: 1px; background: lightgray;" class="my-1"></div>
-                    <p style="color:lightgray;"><small>Heather Storbeck</small></p>
+                    <div style="width: 30px; height: 1px; background: seashell;" class="my-1"></div>
+                    <p style="color:seashell;"><small>Heather Storbeck</small></p>
                 </div>
                 <div class="col px-2" id="review-stars">
                     <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
                     <p class="mb-0"><small><strong>We love that this studio values character and modesty, along with excellence in dance.</strong></small></p>
                     <p class="mb-0"><small>The teachers have encouraged and nurtured our girls in their love of dance.</small></p>
-                    <div style="width: 30px; height: 1px; background: lightgray;" class="my-1"></div>
-                    <p style="color:lightgray;"><small>Shari Peterson</small></p>
+                    <div style="width: 30px; height: 1px; background: seashell;" class="my-1"></div>
+                    <p style="color:seashell;"><small>Shari Peterson</small></p>
                 </div>
                 <div class="col px-2" id="review-stars">
                     <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
                     <p class="mb-0"><small><strong>My daughter loves the relationships she has built with other kids her age.</strong></small></p>
                     <p class="mb-0"><small>She looks forward to dance each night and had become a stronger more confident dancer</small></p>
-                    <div style="width: 30px; height: 1px; background: lightgray;" class="my-1"></div>
-                    <p style="color:lightgray;"><small>Natasha Remis</small></p>
+                    <div style="width: 30px; height: 1px; background: seashell;" class="my-1"></div>
+                    <p style="color:seashell;"><small>Natasha Remis</small></p>
                 </div>
                 <div class="col px-2" id="review-stars">
                     <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
                     <p class="mb-0"><small><strong>Very clean and nice dance studio.</strong></small></p>
                     <p class="mb-0"><small>Our granddaughter is 22 months old and we got to watch her dance so it was awesome!</small></p>
-                    <div style="width: 30px; height: 1px; background: lightgray;" class="my-1"></div>
-                    <p style="color:lightgray;"><small>Randy Schroeder</small></p>
+                    <div style="width: 30px; height: 1px; background: seashell;" class="my-1"></div>
+                    <p style="color:seashell;"><small>Randy Schroeder</small></p>
                 </div>
                 <div class="col px-2" id="review-stars">
                     <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
                     <p class="mb-0"><small><strong>Our young woman is nurtured and challenged as a dancer, a student, a leader and a friend</strong></small></p>
                     <p class="mb-0"><small>A place in addition to their home and school that children are safe, cared for, and are able to grow</small></p>
-                    <div style="width: 30px; height: 1px; background: lightgray;" class="my-1"></div>
-                    <p style="color:lightgray;"><small>Janet Holter</small></p>
+                    <div style="width: 30px; height: 1px; background: seashell;" class="my-1"></div>
+                    <p style="color:seashell;"><small>Janet Holter</small></p>
                 </div>
             </div>
         </div>
@@ -437,18 +515,22 @@
             <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/logo-a-chance-to-dance.png" alt="logo"></div></div>
             <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/logo-coulee-parenting.jpg" alt="logo"></div></div>
             <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/logo-weber-center.png" alt="logo" style="filter: invert(100%);"></div></div>
-            <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/partner9.png" alt="logo"></div></div>
+            <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/logo-blc-2.jpg" alt="logo"></div></div>
             <div class="col p-0 d-flex align-items-center justify-content-center"><div><img src="/images/logo-willow-and-grace.png" alt="logo"></div></div>
         </div>
     </div>
 
-    <div class="my-5">
-        <div class="d-flex justify-content-center">
-            <a href="">
-                <div class="btn btn-lg btn-danger shadow">Find Your Class</div>
-            </a>
+    <section id="guarantee">
+        <div class="bg-red text-white py-5">
+            <p class="text-center pb-0 mb-0" style="font-size: 3em;"><ion-icon name="ribbon"></ion-icon></p>
+            <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Our Guarantee</h2>
+            <p class="text-center txt-crimson" style="font-size: 1.75em;">You'll love your experience or we'll work with you to make it right!</p>
+            <div class="d-flex justify-content-center">
+                <a href=""><div class="btn btn-lg btn-flip-danger shadow mx-4 text-white">Find Your Class</div></a>
+                <a href=""><div class="btn btn-lg btn-flip-danger shadow mx-4 text-white">Schedule A Call</div></a>
+            </div>
         </div>
-    </div>
+    </section>
 
     <div class="bg-dark text-white pb-5">
         <div class="container" id="footer">

@@ -1,5 +1,15 @@
 *, html, body {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.bg-seashell {
+    background: linear-gradient(to left, #fff, #FFF5EE) !important;
+    /*background: linear-gradient(to right, #fff, #FEF8F4) !important;*/
+    /*background: #FFF5EE !important;*/
+}
+
+.txt-crimson {
+    font-family: 'Crimson Text', serif !important;
 }
 
 .txt-green { color: #10c45c; }
@@ -20,7 +30,8 @@
 
 
 .bg-red {
-    background: #ED174D;
+    /*background: #ED174D;*/
+    background: linear-gradient(to right, #ED174D, #FD1C27);
 }
 .text-red {
     color: #ED174D;
@@ -32,14 +43,50 @@
     background: #D90036 !important;
 }
 
+.btn-outline-danger {
+    border: 1px solid #ED174D !important;
+    color: #ED174D !important;
+}
+
+.btn-outline-danger:hover {
+    background: #ED174D !important;
+    color: white !important;
+}
+
+.txt-featured {
+    border: 1px solid #008CC0;
+    color: #008CC0;
+    padding: 0 14px;
+    border-radius: 5px;
+}
+
 .bg-blue {
-    background: #008CC0;
-    color: white;
+    /*background: #EBE82E;*/
+    /*background: linear-gradient(to right, #EBE82E, #FFE21C);*/
+    /*background: linear-gradient(to right, #EBE82E, #FFB705);*/
+    background: linear-gradient(to left, #EBE82E, #FFCB05);
+    /*background: linear-gradient(to right, #EBE82E, #FFDC20);*/
+    color: black;
+}
+
+/*#parents-text {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+
+#parents-image {
+    position: absolute;
+    right: 14%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 879px;
 }
 
 #great-txt {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     width: 62%;
     transform: translate(-50%, -50%);
@@ -49,6 +96,7 @@
     /*text-transform: lowercase;*/
     line-height: 0.75;
     font-weight: bold;
+    text-shadow: 1px 2px 4px black;
 }
 #great-txt-mobile {
     position: absolute;
@@ -74,9 +122,10 @@
 }
 
 .review-img {
-    border: 3px solid white;
+    border: 3px solid #ED174D;
     border-radius: 50%;
-    background: white;
+    background: #ED174D;
+    transform: scale(1.25);
 }
 
 .next-step {
@@ -99,6 +148,7 @@
     border-radius: 5px;
     padding: 5px;
     margin: 2px;
+    color: white;
 }
 
 #review-stars ion-icon {
@@ -107,6 +157,11 @@
     border-radius: 5px;
     padding: 5px;
     margin: 2px;
+    color: white;
+}
+
+#review-stars {
+    font-size: 1.125em;
 }
 
 .partner-div img {
@@ -140,3 +195,17 @@
     opacity: 100%;
 }
 
+/*#pups-wrap {*/
+/*    height: 350px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*#pups {*/
+/*    background: url("/images/pups.jpg");*/
+/*    background-attachment: fixed;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
