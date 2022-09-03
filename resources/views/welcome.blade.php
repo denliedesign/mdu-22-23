@@ -86,30 +86,39 @@
         </div>
     </nav>
 
-    <div style="position: relative;" class="d-none d-md-block">
-        <h2 id="great-txt">
-            You <span class="text-red">belong</span> here
-{{--            <ion-icon name="heart"></ion-icon>--}}
-            <br>
-            <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for ages 2-18!</span>
-        </h2>
+    <div style="position: relative;" class="d-none d-lg-block">
+
+
+            <div style="position:absolute; bottom: 40%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
+                <h2 id="great-txt">
+                    You <span class="text-red">belong</span> here
+                    {{--            <ion-icon name="heart"></ion-icon>--}}
+                    <br>
+                <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for ages 2-18!</span>
+                <br>
+                <a href=""><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
+                </h2>
+            </div>
+
 {{--        <h2 id="great-txt-mobile" class="d-block d-md-none">--}}
 {{--            you <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon>--}}
 {{--            <br>--}}
 {{--            <span style="font-size: 0.5em; font-weight: normal;">Your child will fall in love with dance with our classes for ages 2-18!</span>--}}
 {{--        </h2>--}}
-        <div style="position:absolute; bottom: 18%; left: 50%; transform: translate(-50%, -50%);">
-            <a href=""><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
-        </div>
-        <img src="/images/dance-makes-great-kids.jpg" alt="" class="img-fluid" style="z-index: 0;">
+
+        <img src="/images/dance-makes-great-kids.jpg" alt="" class="img-fluid" style="z-index: 0; width: 100%;">
     </div>
 
-    <div class="d-block d-md-none">
+    <div class="d-block d-lg-none">
         <div class="container">
             <p class="text-center" style="font-size: 1.5em;">
                 <strong>You <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon></strong>
                 <br>
                 <small class="txt-crimson">Your child will fall in love with dance with our classes for ages 2-18!</small>
+                <br>
+                <div class="d-flex justify-content-center">
+                <a href=""><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
+            </div>
             </p>
         </div>
         <img src="/images/dance-makes-great-kids.jpg" alt="" class="img-fluid" style="z-index: 0;">
@@ -121,7 +130,8 @@
                 <div class="col-sm d-flex justify-content-center">
                     <div class="text-center text-white">
                         <div class="fw-bold" style="font-size: 2em;">FIND JOY IN MOVING</div>
-                        <div class="txt-crimson" style="font-size: 1.5em;">Our Experienced Dance Instructors Will Guide You In A <u>FREE</u> Video-Recorded Dance Lesson. Enter Your Email To Get Started.</div>
+                        <div class="txt-crimson" style="font-size: 1.5em;">Try your <u>FREE</u> trial class today.</div>
+{{--                        <div class="txt-crimson" style="font-size: 1.5em;">Our Experienced Dance Instructors Will Guide You In A <u>FREE</u> Video-Recorded Dance Lesson. Enter Your Email To Get Started.</div>--}}
                     </div>
                 </div>
                 <div class="col-sm d-flex justify-content-center align-items-center">
@@ -242,19 +252,20 @@
                     </div>
                     <div class="d-flex justify-content-center">
                         <p class="txt-crimson" style="font-size: 1.75em;">
-                            <span class="text-red"><ion-icon name="heart"></ion-icon></span> Sprung Floors
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Secured Facility
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Study Areas
+                            <span class="text-red"><ion-icon name="heart"></ion-icon></span> Background Checked Staff
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> CPR Certified
                             <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Written Curriculum
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Background Checked
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> CPR Trained
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Full-Time Admin
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> YPAD Certified
-                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Community Service
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Secured Facility
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Full-Time Administrative Team
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Study Areas for Students
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Sprung Floors for Safety
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Community Service Opportunities
+                            <br><span class="text-red"><ion-icon name="heart"></ion-icon></span> Youth Protection Advocates
+                            <br><span style="color: transparent;"><ion-icon name="heart"></ion-icon></span> In Dance Certified
                         </p>
                     </div>
                     <div class="d-flex justify-content-center mt-4">
-                        <div class="btn btn-lg btn-outline-danger shadow">Learn More</div>
+                        <div class="btn btn-lg btn-outline-danger shadow">Try A Free Class</div>
                     </div>
                 </div>
                 <div class="col-sm-4"></div>
@@ -267,13 +278,15 @@
 
     <div class="bg-red text-white py-5">
         <div class="container">
-            <h2 class="fw-bold text-center" style="font-size: 2.75em;">By the numbers...</h2>
+            <h2 class="fw-bold text-center" style="font-size: 2.75em;">25 Years of Serving the Coulee Region</h2>
             <div class="row" style="font-size: 1.5em;">
-                <div class="col-sm text-center d-flex align-items-center justify-content-center"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="calendar"></ion-icon><br>25</span><br>years of instruction</p></div>
+                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-right: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="home"></ion-icon><br>2</span><br> convenient locations in Holmen & Onalaska</p></div>
                 <div class="d-md-none"><hr></div>
-                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="school"></ion-icon><br>100+</span><br> classes per week</p></div>
+                <div class="col-sm text-center d-flex align-items-center justify-content-center"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="school"></ion-icon><br>31</span><br>YPAD Certified Teachers</p></div>
                 <div class="d-md-none"><hr></div>
-                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="home"></ion-icon><br>21,000+</span><br> square foot facility</p></div>
+                <div class="col-sm text-center d-flex align-items-center justify-content-center" style="border-left: 1px solid white;"><p class="py-5"><span class="fw-bold" style="font-size: 1.75em;"><ion-icon name="calendar"></ion-icon><br>100+</span><br> classes per week to choose from</p></div>
+
+
             </div>
         </div>
     </div>
@@ -297,26 +310,50 @@
 {{--                </div>--}}
                 <div class="col-sm mt-4" style="position: relative;">
                     <div class="d-flex justify-content-center">
-                        <img src="/images/class-little-medium.jpg" alt="little medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
-                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Ages 1-4</div>
+                        <img src="/images/classes-1-2.jpg" alt="little medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Age 1-2</div>
                     </div>
                 </div>
                 <div class="col-sm mt-4" style="position: relative;">
                     <div class="d-flex justify-content-center">
-                        <img src="/images/class-5-8.jpg" alt="medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
-                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Ages 5-8</div>
+                        <img src="/images/classes-3-4.jpg" alt="medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Age 3-4</div>
                     </div>
                 </div>
                 <div class="col-sm mt-4" style="position: relative;">
                     <div class="d-flex justify-content-center">
-                        <img src="/images/class-medium-big.jpg" alt="medium big dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
-                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Ages 9+</div>
+                        <img src="/images/classes-5-6.jpg" alt="medium big dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Ages 5-6</div>
                     </div>
                 </div>
                 <div class="col-sm mt-4" style="position: relative;">
                     <div class="d-flex justify-content-center">
-                        <img src="/images/class-big.jpg" alt="big dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
-                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">More Programs</div>
+                        <img src="/images/classes-7-8.jpg" alt="big dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Ages 7-8</div>
+                    </div>
+                </div>
+                <div class="col-sm mt-4" style="position: relative;">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/classes-9-12.jpg" alt="little medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Ages 9-12</div>
+                    </div>
+                </div>
+                <div class="col-sm mt-4" style="position: relative;">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/classes-teens.jpg" alt="medium dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Teens</div>
+                    </div>
+                </div>
+                <div class="col-sm mt-4" style="position: relative;">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/classes-guys.jpg" alt="medium big dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Guys Only</div>
+                    </div>
+                </div>
+                <div class="col-sm mt-4" style="position: relative;">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/classes-schedule.jpg" alt="big dancer" class="img-fluid shadow rounded" style="height: 428px; width: auto; object-fit: cover; object-position: center;">
+                        <div class="btn btn-lg btn-flip-danger text-white shadow" style="position: absolute; bottom: 7.5%; left: 50%; transform: translateX(-50%); width: 75%;">Full Schedule</div>
                     </div>
                 </div>
             </div>
@@ -333,7 +370,8 @@
                             <img src="/images/darbys-dancers-logo.jpeg" alt="darbys dancers logo" class="img-fluid">
                         </div>
                         <p class="text-center txt-crimson" style="font-size: 1.25em;">
-                            MDU is proud to offer through a chapter of the national non-profit organization Darby’s Dancers, an opportunity for children with special needs to participate in the performing arts through dance education.
+                            MDU is proud to offer through a chapter of the national non-profit organization Darby’s Dancers, an opportunity for children with special needs to participate in the performing arts through dance education at no cost to their families. MDU's chapter of Darby's Dancers is supported by the
+                            <a href="https://www.chancetodancefoundation.org" target="_blank">Chance to Dance Foundation</a>.
                         </p>
                     </div>
                 </div>
@@ -349,7 +387,7 @@
     <div class="bg-blue py-5">
         <div class="container">
             <div class="text-center txt-crimson" style="font-size: 1.5em;">
-                We have been extremely pleased with the level of instruction & care shown at Misty's Dance Unlimited.  My daughter has been dancing at MDU for 6 years.  She started in the Kiddance/KidTap program & is now in the Pre-Professional ballet program.  The staff care just as much about the kids as people, as dancers.
+                We have been extremely pleased with the level of instruction & care shown at Misty's Dance Unlimited.  My daughter has been dancing at MDU for 6 years.  She started in the Kidance/KidTap program & is now in the Pre-Professional ballet program.  The staff care just as much about the kids as people, as dancers.
             </div>
             <div class="d-flex justify-content-center align-items-center">
                 <img class="review-img shadow mt-4" src="/images/review-sandy-helfrich.png" alt="">
@@ -522,7 +560,10 @@
 
     <section id="guarantee">
         <div class="bg-red text-white py-5">
-            <p class="text-center pb-0 mb-0" style="font-size: 3em;"><ion-icon name="ribbon"></ion-icon></p>
+{{--            <p class="text-center pb-0 mb-0" style="font-size: 3em;"><ion-icon name="ribbon"></ion-icon></p>--}}
+            <div class="d-flex justify-content-center">
+                <img src="/images/gauranteed-logo-crop.png" alt="" class="img-fluid">
+            </div>
             <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Our Guarantee</h2>
             <p class="text-center txt-crimson" style="font-size: 1.75em;">You'll love your experience or we'll work with you to make it right!</p>
             <div class="d-flex justify-content-center">
