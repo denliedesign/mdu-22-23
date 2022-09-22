@@ -399,7 +399,7 @@
     </div>
 </div>
 
-<div class="bg-red-solid py-5" style="position: relative; min-height: 150vh;">
+<div class="bg-red-solid py-5" style="position: relative; height: 1080px;">
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
             <div class="col-sm d-flex align-items-center font-staat text-white" style="font-size: 100px; transform: rotate(-90deg);">classes</div>
