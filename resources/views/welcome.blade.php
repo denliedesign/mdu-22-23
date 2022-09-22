@@ -445,15 +445,32 @@
     <div id="did-you-know" class="bg-red text-white">
         <div class="container py-5">
             <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Did you know...</h2>
-            <p class="text-center txt-crimson" style="font-size: 1.75em;">
-                Dance improves not only physical dexterity but also mental dexterity by repetition, rehearsals, and problem solving with movement.
-                From exercising mind and body simultaneously in dance, kids in turn do better at absorbing ideas and holding information at school.
-            </p>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm d-flex justify-content-center">
+                    <div class="txt-crimson" style="font-size: 1.75em;">
+                        Students who regularly participate in dance:
+                        <ul>
+                            <li>Earn higher GPAs</li>
+                            <li>Perform better in science, math, and writing</li>
+                            <li>Earn higher test scores on SATs</li>
+                            <li>Enroll in 4-year colleges and earn mostly As</li>
+                        </ul>
+                        <em>Source: National Endowment for the Arts</em>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
             <div class="mt-3">
                 <p class="text-center rounded p-3" style="font-size: 1.75em; border: 4px solid #EBE82E;">
                     <span>
-                        That's why we at MDU built developmentally appropriate curriculum so our kids can be<br>More Than Just Great Dancers.
+                        Additionally, dance boosts confidence, coordination, and compassion for others. Dancers learn hard work, perseverance, and team work. Or as we like to say around here...Dance makes great kids!
                     </span>
+                </p>
+            </div>
+            <div>
+                <p class="text-center txt-crimson" style="font-size: 1.75em;">
+                    At Misty's Dance Unlimited, we don't teach kids to make great dancers.<br>We teach dance to make great kids! - <em>Misty Lown</em>
                 </p>
             </div>
         </div>
