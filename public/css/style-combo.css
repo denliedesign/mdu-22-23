@@ -64,6 +64,14 @@
     color: black;
 }
 
+#happy-healthy-safe-image {
+    position: absolute;
+    bottom: -10px;
+    left: 15%;
+    height: 1095px;
+    z-index: 3 !important;
+}
+
 #badge-image {
     position: absolute;
     bottom: 0;
@@ -91,7 +99,8 @@
 
 #joy-image {
     position: absolute;
-    right: 16%;
+    right: 10%;
+    /*right: 16%;*/
     bottom: 0;
     /*transform: translateY(-50%);*/
     height: 455px;

@@ -179,24 +179,30 @@
 {{--            </div>--}}
 {{--        </div>--}}
     </div>
-    <div style="height: 123px;"></div>
-    <div class="custom-shape-divider-bottom-1648525246" style="transform: translateY(1px);">
+    <div style="height: 118px;"></div>
+    <div class="custom-shape-divider-bottom-1663856745">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+            <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
         </svg>
     </div>
+{{--    <div style="height: 123px;"></div>--}}
+{{--    <div class="custom-shape-divider-bottom-1648525246" style="transform: translateY(1px);">--}}
+{{--        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">--}}
+{{--            <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>--}}
+{{--        </svg>--}}
+{{--    </div>--}}
 </div>
 
-<div style="position: relative; height: 920px;">
+<div style="position: relative; height: 990px;">
     <div class="container" style="height: 100%;">
         <div id="apple-effect-wrap" style="height: 100%;">
-            <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 5 !important; line-height: 0.9;"><span style="color: transparent;">kee</span>ping your dancer<br>
+            <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 5 !important; line-height: 0.9;"><span style="color: transparent;">keepi</span>ng your dancer<br>
                 <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;"><span style="color: transparent;">happy</span></a>,
                 <a data-bs-toggle="offcanvas" href="#offcanvasHealthy" role="button" style="color: inherit;">healthy</a>, and
                 <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>
             </h3>
             <div>
-                <img src="/images/summit-main-dancer.png" alt="female contemporary dancer" class="img-fluid d-none d-lg-block" id="badge-image">
+                <img src="/images/happy-healthy-safe.png" alt="female contemporary dancer" class="img-fluid d-none d-lg-block" id="happy-healthy-safe-image">
             </div>
             <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 1 !important; line-height: 0.9;">keeping your dancer<br>
                 <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;">happy</a>,
@@ -207,22 +213,27 @@
     </div>
 </div>
 
-<!-- old code keeping dancers badges -->
-{{--<div id="apple-effect-wrap" style="position: relative; height: 125vh;" class="py-5">--}}
-{{--    --}}{{--        <img src="/images/summit-main-dancer.png" alt="female contemporary dancer" class="img-fluid" style="position: absolute; bottom: 0; right: 0; filter: hue-rotate(70deg);">--}}
-{{--    <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 5 !important; line-height: 0.9;"><span style="color: transparent;">kee</span>ping your dancer<br>--}}
-{{--        <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;"><span style="color: transparent;">happy</span></a>,--}}
-{{--        <a data-bs-toggle="offcanvas" href="#offcanvasHealthy" role="button" style="color: inherit;">healthy</a>, and--}}
-{{--        <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>--}}
-{{--    </h3>--}}
-{{--    <img src="/images/summit-main-dancer.png" alt="female contemporary dancer" class="img-fluid" style="position: absolute; bottom: 0; left: 10%; z-index: 3 !important;">--}}
-{{--    <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 1 !important; line-height: 0.9;">keeping your dancer<br>--}}
-{{--        <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;">happy</a>,--}}
-{{--        <a data-bs-toggle="offcanvas" href="#offcanvasHealthy" role="button" style="color: inherit;">healthy</a>, and--}}
-{{--        <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>--}}
-{{--    </h3>--}}
+<!-- middrif fluid frames dancer -->
+{{--<div style="position: relative; height: 920px;">--}}
+{{--    <div class="container" style="height: 100%;">--}}
+{{--        <div id="apple-effect-wrap" style="height: 100%;">--}}
+{{--            <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 5 !important; line-height: 0.9;"><span style="color: transparent;">kee</span>ping your dancer<br>--}}
+{{--                <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;"><span style="color: transparent;">happy</span></a>,--}}
+{{--                <a data-bs-toggle="offcanvas" href="#offcanvasHealthy" role="button" style="color: inherit;">healthy</a>, and--}}
+{{--                <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>--}}
+{{--            </h3>--}}
+{{--            <div>--}}
+{{--                <img src="/images/summit-main-dancer.png" alt="female contemporary dancer" class="img-fluid d-none d-lg-block" id="badge-image">--}}
+{{--            </div>--}}
+{{--            <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 1 !important; line-height: 0.9;">keeping your dancer<br>--}}
+{{--                <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;">happy</a>,--}}
+{{--                <a data-bs-toggle="offcanvas" href="#offcanvasHealthy" role="button" style="color: inherit;">healthy</a>, and--}}
+{{--                <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>--}}
+{{--            </h3>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 {{--</div>--}}
-<!-- end of old code keeping dancers badges -->
+<!-- end of middrif fluid frames dancer -->
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasHappy">
     <div class="offcanvas-header d-flex justify-content-end">
@@ -560,7 +571,8 @@
     </div>
 </div>
 
-<div style="position: relative; height: 300px;">
+<div style="position: relative; height: 325px;">
+{{--<div style="position: relative; height: 300px;">--}}
     <div class="container" style="height: 100%;">
         <div class="row" style="width: 100%; height: 100%; z-index: 1; position: relative;">
             <div class="col-sm d-flex justify-content-center align-items-center">
@@ -584,7 +596,7 @@
         </div>
     </div>
     <div>
-        <img src="/images/joy-img.png" alt="" class="img-fluid d-none d-lg-block" id="joy-image">
+        <img src="/images/find-joy-in-moving.png" alt="" class="img-fluid d-none d-lg-block" id="joy-image">
     </div>
 </div>
 
