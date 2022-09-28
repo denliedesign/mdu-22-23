@@ -24,3 +24,13 @@ Route::get('/summit', function () {
 Route::get('/welcome', function () {
     return view('/welcome');
 });
+
+Route::get('/aboutus', function () {
+    return view('/aboutus');
+});
+Route::get('/fall', function () {
+    return view('/fall');
+});
+Route::get('/alumni', function () {
+    return view('/alumni');
+});

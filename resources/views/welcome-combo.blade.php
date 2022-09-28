@@ -1,99 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>MDU 22-23</title>
-
-    <!-- Fonts -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Nunito&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Staatliches&family=Syne&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-    </style>
-
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="/css/style-combo.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
-    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/js/script.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
-
-</head>
-<body>
-
-<div id="top" class="bg-dark py-2">
-    <ul class="nav justify-content-center">
-        <li class="nav-item text-white-50 mx-4">
-            <ion-icon name="navigate"></ion-icon>
-            923 12th Ave S, STE 103, Onalaska, WI 54650
-        </li>
-        <li class="nav-item text-white-50 mx-4">
-            <ion-icon name="call"></ion-icon>
-            608.779.4642
-        </li>
-        <li class="nav-item text-white-50 mx-4">
-            <ion-icon name="mail"></ion-icon>
-            mistysdance@gmail.com
-        </li>
-    </ul>
-</div>
-
-
-
-<div class="d-lg-none d-flex justify-content-center pt-3 bg-white">
-    <a class="navbar-brand" href="/"><img src="/images/mdu-logo.png" alt="" style="max-width: 257px;"></a>
-</div>
-<nav class="navbar navbar-expand-lg bg-white">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
-                <li class="d-none d-lg-block nav-item mx-2">
-                    <a class="nav-link" href="#">
-                        <img src="/images/mdu-logo.png" alt="" style="max-width: 257px;">
-                    </a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">ABOUT US</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">SUMMER</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">SCHEDULE</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">NEWS</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">REGISTER</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">BOUTIQUE</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">ALUMNI</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a href="" class="nav-link">
-                        <div class="btn btn-danger shadow">Find Your Class</div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+@extends('layouts.app')
+@section('content')
 
 <div style="position: relative;" class="d-none d-lg-block">
     <div style="position:absolute; bottom: 40%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
@@ -103,7 +9,7 @@
             <br>
             <span style="font-size: 0.5em; font-weight: normal; text-shadow: 1px 2px 4px black;" class="txt-crimson">Your child will fall in love with dance with our classes for ages 2-18!</span>
             <br>
-            <a href=""><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
+            <a href="/fall"><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
         </h2>
     </div>
     <img src="/images/dance-makes-great-kids.jpg" alt="" class="img-fluid" style="z-index: 0; width: 100%;">
@@ -112,9 +18,9 @@
 <div class="d-block d-lg-none">
     <div class="container">
         <p class="text-center" style="font-size: 1.5em;">
-            <strong>You <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon></strong>
+            <span class="font-staat" style="font-size: 50px; line-height: 0.9;"><strong>You <span class="text-red">belong</span> here <ion-icon name="heart"></ion-icon></strong></span>
             <br>
-            <small class="txt-crimson">Your child will fall in love with dance with our classes for ages 2-18!</small>
+            <small class="txt-crimson font-syne">Your child will fall in love with dance with our classes for ages 2-18!</small>
             <br>
         <div class="d-flex justify-content-center">
             <a href=""><div class="shadow btn btn-lg btn-danger">Find Your Class</div></a>
@@ -193,7 +99,7 @@
 {{--    </div>--}}
 </div>
 
-<div style="position: relative; height: 990px;">
+<div style="position: relative; height: 990px;" class="d-none d-lg-block">
     <div class="container" style="height: 100%;">
         <div id="apple-effect-wrap" style="height: 100%;">
             <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 5 !important; line-height: 0.9;"><span style="color: transparent;">keepi</span>ng your dancer<br>
@@ -202,7 +108,27 @@
                 <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>
             </h3>
             <div>
-                <img src="/images/happy-healthy-safe.png" alt="female contemporary dancer" class="img-fluid d-none d-lg-block" id="happy-healthy-safe-image">
+                <img src="/images/happy-healthy-safe.png" alt="female contemporary dancer" class="img-fluid" id="happy-healthy-safe-image">
+            </div>
+            <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 1 !important; line-height: 0.9;">keeping your dancer<br>
+                <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;">happy</a>,
+                <a data-bs-toggle="offcanvas" href="#offcanvasHealthy" role="button" style="color: inherit;">healthy</a>, and
+                <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div style="position: relative; height: 850px;" class="d-block d-lg-none">
+    <div class="container" style="height: 100%;">
+        <div id="apple-effect-wrap" style="height: 100%;">
+            <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 5 !important; line-height: 0.9;"><span style="color: transparent;">keeping your dancer</span><br>
+                <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;"><span style="color: transparent;">happy</span></a>,
+                <a data-bs-toggle="offcanvas" href="#offcanvasHealthy" role="button" style="color: inherit;">healthy</a>, and
+                <a data-bs-toggle="offcanvas" href="#offcanvasSafe" role="button" style="color: inherit;">safe</a>
+            </h3>
+            <div>
+                <img src="/images/happy-healthy-safe.png" alt="female contemporary dancer" class="img-fluid" id="happy-healthy-safe-mobile">
             </div>
             <h3 class="apple-effect font-staat text-lowercase text-center" style="font-size: 100px; position: absolute; top: 36%; left: 50%; transform: translate(-50%, -50%); width: 100%; color: #D90036; z-index: 1 !important; line-height: 0.9;">keeping your dancer<br>
                 <a data-bs-toggle="offcanvas" href="#offcanvasHappy" role="button" style="color: inherit;">happy</a>,
@@ -410,27 +336,27 @@
     </div>
 </div>
 
-<div class="bg-red-solid py-5" style="position: relative; height: 1080px;">
+<div class="bg-red-solid py-5 d-none d-lg-block" style="position: relative; height: 1080px;">
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
             <div class="col-sm d-flex align-items-center font-staat text-white" style="font-size: 100px; transform: rotate(-90deg);">classes</div>
             <div class="col-sm" style="position: relative;">
                 <img src="/images/classes-1-2.jpg" alt="dancer posing" class="img-fluid">
-                <a class="triangle-and-text" href="/classes#class-1">
+                <a class="triangle-and-text" href="/fall#age-2-4">
                     <div id="triangle-bottomleft"></div>
                     <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Age 1-2</div>
                 </a>
             </div>
             <div class="col-sm" style="position: relative;">
                 <img src="/images/classes-3-4.jpg" alt="dancer posing" class="img-fluid">
-                <a class="triangle-and-text" href="/classes#class-2">
+                <a class="triangle-and-text" href="/fall#age-2-4">
                     <div id="triangle-bottomleft"></div>
                     <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Age 3-4</div>
                 </a>
             </div>
             <div class="col-sm" style="position: relative;">
                 <img src="/images/classes-5-6-resize.jpg" alt="dancer posing" class="img-fluid">
-                <a class="triangle-and-text" href="/classes#class-3">
+                <a class="triangle-and-text" href="/fall#age-k-1st">
                     <div id="triangle-bottomleft"></div>
                     <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 5-6</div>
                 </a>
@@ -439,28 +365,90 @@
         <div class="mt-4 row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
             <div class="col-sm" style="position: relative; z-index: 3;">
                 <img src="/images/classes-7-8.jpg" alt="dancer posing" class="img-fluid">
-                <a class="triangle-and-text" href="/classes#class-4">
+                <a class="triangle-and-text" href="/fall#age-2nd-3rd">
                     <div id="triangle-bottomleft"></div>
                     <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 7-8</div>
                 </a>
             </div>
             <div class="col-sm" style="position: relative; z-index: 3;">
                 <img src="/images/classes-9-12.jpg" alt="dancer posing" class="img-fluid">
-                <a class="triangle-and-text" href="/classes#class-5">
+                <a class="triangle-and-text" href="/fall#age-graded">
                     <div id="triangle-bottomleft"></div>
                     <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 9-12</div>
                 </a>
             </div>
             <div class="col-sm" style="position: relative; z-index: 3;">
                 <img src="/images/classes-teens.jpg" alt="dancer posing" class="img-fluid">
-                <a class="triangle-and-text" href="/classes#class-6">
+                <a class="triangle-and-text" href="/fall#age-teen">
                     <div id="triangle-bottomleft"></div>
                     <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Teens</div>
                 </a>
             </div>
             <div class="col-sm" style="position: relative; z-index: 3;">
                 <img src="/images/classes-guys.jpg" alt="dancer posing" class="img-fluid">
-                <a class="triangle-and-text" href="/company">
+                <a class="triangle-and-text" href="/fall#age-guys">
+                    <div id="triangle-bottomleft"></div>
+                    <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Guys Only</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="custom-shape-divider-bottom-1648524823" style="transform: translateY(1px);">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+        </svg>
+    </div>
+</div>
+
+<div id="mobile-classes-section" class="bg-red-solid py-5 d-block d-lg-none" style="position: relative; height: 100%;">
+    <div class="container">
+        <div class="col-sm font-staat text-white text-center" style="font-size: 100px;">classes</div>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
+            <div class="col-sm my-3" style="position: relative;">
+                <img src="/images/classes-1-2.jpg" alt="dancer posing" class="img-fluid">
+                <a class="triangle-and-text" href="/fall#age-2-4">
+                    <div id="triangle-bottomleft"></div>
+                    <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Age 1-2</div>
+                </a>
+            </div>
+            <div class="col-sm my-3" style="position: relative;">
+                <img src="/images/classes-3-4.jpg" alt="dancer posing" class="img-fluid">
+                <a class="triangle-and-text" href="/fall#age-2-4">
+                    <div id="triangle-bottomleft"></div>
+                    <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Age 3-4</div>
+                </a>
+            </div>
+            <div class="col-sm my-3" style="position: relative;">
+                <img src="/images/classes-5-6-resize.jpg" alt="dancer posing" class="img-fluid">
+                <a class="triangle-and-text" href="/fall#age-k-1st">
+                    <div id="triangle-bottomleft"></div>
+                    <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 5-6</div>
+                </a>
+            </div>
+            <div class="col-sm my-3" style="position: relative; z-index: 3;">
+                <img src="/images/classes-7-8.jpg" alt="dancer posing" class="img-fluid">
+                <a class="triangle-and-text" href="/fall#age-2nd-3rd">
+                    <div id="triangle-bottomleft"></div>
+                    <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 7-8</div>
+                </a>
+            </div>
+            <div class="col-sm my-3" style="position: relative; z-index: 3;">
+                <img src="/images/classes-9-12.jpg" alt="dancer posing" class="img-fluid">
+                <a class="triangle-and-text" href="/fall#age-graded">
+                    <div id="triangle-bottomleft"></div>
+                    <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Ages 9-12</div>
+                </a>
+            </div>
+            <div class="col-sm my-3" style="position: relative; z-index: 3;">
+                <img src="/images/classes-teens.jpg" alt="dancer posing" class="img-fluid">
+                <a class="triangle-and-text" href="/fall#age-teen">
+                    <div id="triangle-bottomleft"></div>
+                    <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Teens</div>
+                </a>
+            </div>
+            <div class="col-sm my-3" style="position: relative; z-index: 3;">
+                <img src="/images/classes-guys.jpg" alt="dancer posing" class="img-fluid">
+                <a class="triangle-and-text" href="/fall#age-guys">
                     <div id="triangle-bottomleft"></div>
                     <div class="triangle-text font-staat m-2" style="font-size: 30px; line-height: 0.9em; position: absolute; bottom: 0; left: 12px;">Guys Only</div>
                 </a>
@@ -597,6 +585,7 @@
     </div>
     <div>
         <img src="/images/find-joy-in-moving.png" alt="" class="img-fluid d-none d-lg-block" id="joy-image">
+        <img src="/images/find-joy-in-moving.png" alt="" class="img-fluid d-block d-lg-none" id="joy-mobile">
     </div>
 </div>
 
@@ -688,7 +677,7 @@
 {{--    </div>--}}
 </div>
 
-<div style="position: relative; height: 500px;">
+<div style="position: relative; height: 500px;" class="d-none d-lg-block">
     <div class="container pt-5" style="height: 100%;">
 {{--    <div style="position:absolute; bottom: 40%; left: 50%; transform: translate(-50%, -50%); width: 100%;">--}}
         <div class="font-staat text-lowercase" style="font-size: 85px; position: absolute; top: 10%; left: 5%; width: 100%; color: black; line-height: 0.9; z-index: -3 !important;">
@@ -731,6 +720,46 @@
     </div>
     <div>
         <img src="/images/cta-crop.png" alt="" class="img-fluid d-none d-lg-block" id="cta-image">
+    </div>
+</div>
+
+<div id="mobile-cta-section" style="position: relative; height: 100%;" class="d-block d-lg-none my-5">
+    <div class="container" style="height: 100%;">
+        <div class="font-staat text-lowercase text-center" style="font-size: 85px; width: 100%; color: black; line-height: 0.9;">
+            <div>See what dance can do for your child!</div>
+        </div>
+
+        <div>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
+                <div class="col-sm my-3">
+                    <div class="next-step mx-1 shadow py-5">
+                        <p class="txt-green">Ready To Leap In?</p>
+                        <a href="https://app.thestudiodirector.com/mistysdance/portal.sd?page=Login" target="_blank"
+                           class="">
+                            <div class="shadow btn btn-lg btn-green btn-family">&#10097; Enroll today!</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm my-3">
+                    <div class="next-step mx-1 shadow py-5">
+                        <p class="txt-blue">Want To Give It A Try?</p>
+                        <div>
+                            <button type="button" class="shadow btn btn-lg btn-blue btn-family"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">&#10097; Schedule A Trial!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm my-3">
+                    <div class="next-step mx-1 shadow py-5">
+                        <p class="txt-pink">Still Have Questions?</p>
+                        <a href="#footer" class="">
+                            <div class="shadow btn btn-lg btn-pink btn-family">&#10097; Contact Us!</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -812,123 +841,10 @@
         <h2 class="fw-bold text-center text-white" style="font-size: 2.75em;">Our Guarantee</h2>
         <p class="text-center txt-crimson" style="font-size: 1.75em;">You'll love your experience or we'll work with you to make it right!</p>
         <div class="d-flex justify-content-center">
-            <a href=""><div class="btn btn-lg btn-flip-danger shadow mx-4 text-white">Find Your Class</div></a>
-            <a href=""><div class="btn btn-lg btn-flip-danger shadow mx-4 text-white">Schedule A Call</div></a>
+            <a href="/fall"><div class="btn btn-lg btn-flip-danger shadow mx-4 text-white">Find Your Class</div></a>
+            <a href="mailto:mistysdance@gmail.com?subject=Schedule A Call"><div class="btn btn-lg btn-flip-danger shadow mx-4 text-white">Schedule A Call</div></a>
         </div>
     </div>
 </section>
 
-<div class="bg-dark text-white pb-5">
-    <div class="container" id="footer">
-        <div class="pt-5">
-            <div class="row m-0 p-0">
-                <div class="col-sm-4 mt-3">
-                    <p class="lead">CONTACT</p>
-                    <ul class="list-group" id="footer-list">
-                        <li class="list-group-item px-0 border-0">
-                            <ion-icon name="navigate"></ion-icon>
-                            923 12th Ave S, STE 103, Onalaska, WI 54650
-                        </li>
-                        <li class="list-group-item px-0 border-0">
-                            <ion-icon name="call"></ion-icon>
-                            608.779.4642
-                        </li>
-                        <li class="list-group-item px-0 border-0">
-                            <ion-icon name="mail"></ion-icon>
-                            mistysdance@gmail.com
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-2 mt-3">
-                    <p class="lead">SOCIAL</p>
-                    <div class="d-flex d-inline">
-                        <div class="d-inline">
-                            <a class="nav-link text-white p-0" href="https://www.facebook.com/mistysdance/" target="_blank">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </div>
-                        <div class="d-inline">
-                            <a class="nav-link text-white p-0 mx-3" href="https://www.instagram.com/mistysdance/" target="_blank">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 mt-3">
-                    <p class="lead">MORE LINKS</p>
-                    <div class="row">
-                        <div class="col-sm">
-                            <ul class="list-group" id="footer-list">
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSdWfWLOlYApj7IwSztFfUXLcR0qFVOJYg8YAFOu5gqbUAkQqg/viewform" target="_blank">Absence Reporting</a>
-                                </li>
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="/events">Calendar of Events</a>
-                                </li>
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="/pl">Private Lessons</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm">
-                            <ul class="list-group" id="footer-list">
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="https://forms.gle/trR2amJYHtqGYLAc9" target="_blank">Student Lockers</a>
-                                </li>
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSfzEyUJ7xwdSlv_IMNtLznZo1Lwk5jH0yfAKQZ32jGRpuWdCw/viewform?c=0&w=1" target="_blank">Performance Request</a>
-                                </li>
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="/studio">Studio</a>
-                                </li>
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="/employment">Employment</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm">
-                            <ul class="list-group" id="footer-list">
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="/promotions">Promos</a>
-                                </li>
-                                <li class="list-group-item px-0 border-0">
-                                    <a class="text-decoration-none txt-blue" href="/posts">Blog</a>
-                                </li>
-                                {{--                                    @guest--}}
-                                {{--                                        <li class="list-group-item px-0 border-0">--}}
-                                {{--                                            <a class="text-decoration-none txt-blue" href="{{ route('login') }}">{{ __('Login') }}</a>--}}
-                                {{--                                        </li>--}}
-                                {{--                                    @else--}}
-                                {{--                                        <li class="list-group-item px-0 border-0 dropdown">--}}
-                                {{--                                            <a class="text-decoration-none txt-blue" href="{{ route('logout') }}"--}}
-                                {{--                                               onclick="event.preventDefault();--}}
-                                {{--                                                     document.getElementById('logout-form').submit();">--}}
-                                {{--                                                {{ __('Logout') }}--}}
-                                {{--                                            </a>--}}
-                                {{--                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">--}}
-                                {{--                                                @csrf--}}
-                                {{--                                            </form>--}}
-                                {{--                                        </li>--}}
-                                {{--                                    @endguest--}}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="bottom" class="bg-dark text-white-50 text-center pt-3">
-    © 2022 Misty's Dance Unlimited
-</div>
-<p id="credit" class="bg-dark text-center pb-3 m-0">
-    <a class="text-decoration-none" href="https://denliedesign.com/" target="_blank"><small class="text-muted">Dance Website Design by Denlie Design</small></a>
-</p>
-<div id="bottom"></div>
-
-
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-</html>
+@endsection
