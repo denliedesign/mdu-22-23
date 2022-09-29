@@ -41,7 +41,7 @@
     <div class="bg-red-solid py-5" style="position: relative; height: 100%;">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col-sm mt-3 d-flex align-items-center font-staat text-white d-none d-lg-block" style="font-size: 100px; transform: rotate(-90deg);">faculty</div>
+                <div class="col-sm font-staat text-white d-none d-lg-block" style="font-size: 100px; transform: rotate(-90deg) translate(-50%, -50%); height: 100%;">faculty</div>
                 <div class="col-sm mt-3 d-flex align-items-center font-staat text-white d-block d-lg-none" style="font-size: 100px;">faculty</div>
                 <div class="col-sm mt-3 text-white" style="height: 100%;">
                     <div style="position: relative;">
